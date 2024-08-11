@@ -1,0 +1,48 @@
+name: joistic
+description: "A Flutter Assignment for joistic"
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  #state management
+  get: ^4.6.6
+  #local storage
+  shared_preferences: ^2.3.1
+  #network call
+  dio: ^5.5.0+1
+  # connection checker
+  internet_connection_checker: ^1.0.0+1
+  flutter_svg: ^2.0.10+1
+  firebase_core: ^3.3.0
+  firebase_auth: ^5.1.4
+  google_sign_in: ^6.2.1
+  logger: ^2.4.0
+  pretty_dio_logger: ^1.4.0
+  cloud_firestore: ^5.2.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+  #   - images/a_dot_ham.jpeg
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf

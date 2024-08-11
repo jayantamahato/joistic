@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "179545987204",
+    "project_id": "joistic-96d62",
+    "storage_bucket": "joistic-96d62.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179545987204:android:377fef68c7cf88993ccad1",
+        "android_client_info": {
+          "package_name": "com.joistic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179545987204-ojmepmj5bcm4rm9mh5bghc10bc45m840.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.joistic",
+            "certificate_hash": "0e8f3cce6b61d351d67dc9df5a4eb320611fd782"
+          }
+        },
+        {
+          "client_id": "179545987204-jg7t56e1pvrb1a8kst4fjhiqj9e61g3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFoBcKqg72Pye7pDr2UH5kdkfO6px5iuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179545987204-jg7t56e1pvrb1a8kst4fjhiqj9e61g3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
