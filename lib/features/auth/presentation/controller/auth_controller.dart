@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
+import 'package:google_sign_in/google_sign_in.dart';
 import 'package:joistic/core/error/error.dart';
 
 import '../../../../core/local_storage/local_storage.dart';
@@ -51,6 +52,8 @@ class AuthController extends GetxController {
 
   Future signOut() async {
     await _auth.signOut();
+    await GoogleSignIn().disconnect();
+
     await LocalStorage.clear();
   }
 }
